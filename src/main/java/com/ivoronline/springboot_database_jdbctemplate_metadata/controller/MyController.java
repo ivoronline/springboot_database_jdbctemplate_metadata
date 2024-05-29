@@ -16,8 +16,7 @@ public class MyController {
   //=========================================================================================================
   // SELECT RECORD
   //=========================================================================================================
-  // Request             => http://localhost:8080/returnColumns
-  // Returns JSON Object => { "id":1, "name":"John", "age":10 }
+  // Request => http://localhost:8080/returnColumns
   @ResponseBody
   @GetMapping("/returnColumns")
   public String returnColumns() throws SQLException {
